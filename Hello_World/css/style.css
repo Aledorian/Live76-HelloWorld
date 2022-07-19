@@ -1,0 +1,158 @@
+@font-face {
+    font-family: lato;
+    src: url("../ressources/Lato-Regular.ttf");
+}
+
+body{
+    font-family: lato ;
+    color: #333;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: aqua;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+}
+
+.navbar *{
+    padding: 3rem;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.container a{
+    color: #0096D0    ;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+h1{
+    font-size: 3rem;
+    color: #40CCEA;
+    white-space: 10px;
+    border-bottom: 1px dashed;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.6rem;
+    text-transform:capitalize;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+.vienne{
+    float: left;
+    max-width: 49%;
+    margin-right: 2%;
+}
+
+.maroc{
+    float: right;
+    max-width: 49%;
+}
+
+.red{
+    color: #f00
+}
+
+.ocre{
+    color: #CD8C56;
+}
+.country{
+    justify-content: left;
+    margin-bottom: 25px;
+}
+
+.readmore{
+    background-color: #0096D0;
+    border-radius: 6px;
+    color: white !important ;
+    padding: 5px;
+}
+
+#about, #trip, #contact{
+    margin: 30px 0px;
+}
+
+#about{
+    background-image: url("../ressources/fond.jpg");
+    background-size:cover;
+    background-position: center;
+    padding: 5px;  
+    /* position: absolute; */
+    width: 100%;
+    left: 0;
+}
+
+.aboutText{
+    max-width: 46%;
+    padding: 2%;
+    background-color: white;
+    margin: 2% 5%;
+}
+
+.fa-facebook-square{
+    color: #4267B2;
+    height: 120px;
+}
+
+.fa-twitter-square{
+    color: #1da1f2;
+}
+
+.fa-pinterest-square{
+    color: #bd081c;
+}
+
+.fa-instagram-square{
+    color: #8948c1;
+}
+
+.footer{
+    text-align: center;
+    background-color: #40CCEA;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 2rem;
+}
+
+.footer a{
+    color: white;
+    /* text-decoration:none ; */
+}
+
+.footer img {
+    width: 60px;
+}
